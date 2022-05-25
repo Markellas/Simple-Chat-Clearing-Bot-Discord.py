@@ -1,2 +1,2 @@
-# simple-chat-clear-bot-discord.py
-Simple chat clear bot in Discord.py (Python)
+# A simple chat clearing bot for Discord (Discord.py)
+You can use this code for your Discord bot.
