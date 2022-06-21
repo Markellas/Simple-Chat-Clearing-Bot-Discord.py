@@ -15,6 +15,7 @@ async def on_ready():
 @commands.has_permissions(manage_messages = True)
 async def clear( ctx, limit = 100 ): # or any limit you like
     await ctx.channel.purge( limit = limit )
-    await ctx.send('Cleared the chat')
+    embed = discord.Embed(title = f'Deleted {limit} messages in this channel.')
+    await ctx.send(embed = embed)    
 
 bot.run("Your bot's token")    
